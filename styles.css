@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#red { background-color: red; }
+#blue { background-color: blue; }
+#orange { background-color: orange; }
+#green { background-color: green; }
+
+.active {
+    opacity: 0.5;
+}
